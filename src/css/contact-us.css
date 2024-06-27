@@ -31,6 +31,7 @@
         letter-spacing: -0.02em;
         color: rgba(12, 12, 12, 0.7);
         margin-bottom: 28px;
+        color: #0c0c0c;
     }
     .contact-us__container__form{
         display: flex;
@@ -46,6 +47,7 @@
         background-color: transparent;
         width: 279px;
         height: 42px;
+        color: #0c0c0c;
     }
     .contact-us__container__form__input:hover,
     .contact-us__container__form__input:focus{
@@ -55,6 +57,7 @@
         padding-bottom: 54px;
         height: 84px;
         resize: none;
+        color: #0c0c0c;
     }
     .contact-us__container__form__input::placeholder{
         font-family: "Gilroy", sans-serif;
