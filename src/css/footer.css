@@ -1,0 +1,132 @@
+/*========= general ============*/
+a {
+    text-decoration: none;
+}
+
+
+.footer-part {
+    background-color: #0C0C0C;
+    border-radius: 30px;
+    color: #FBFBFB;
+    margin: auto 20px 20px 20px;
+
+}
+
+.logo-slogan {
+    display: flex;
+
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.container-slogan {
+    max-width: 279px;
+}
+
+.slogan {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+
+.cont-tel {
+    margin-left: auto;
+    color: #FBFBFB;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #FBFBFB;
+    border-radius: 16px;
+    padding: 15px;
+}
+
+.link-footer {}
+
+.menu-address {
+    display: flex;
+
+}
+
+.link-section {
+    display: flex;
+    padding-left: 0;
+}
+
+.nav-link {
+    color: #FBFBFB;
+}
+
+.adress {}
+
+.info {
+    display: flex;
+}
+
+.logo {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.4px;
+    letter-spacing: 0.02em;
+}
+
+
+@media screen and (min-width: 320px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .container {
+        max-width: 375px;
+        padding: 40px;
+    }
+}
+
+/*--------планшет-------*/
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .logo {
+        font-size: 20px;
+        line-height: 24.3px;
+    }
+
+    .container-slogan {
+        max-width: 524px;
+    }
+
+    .slogan {
+        width: 100%;
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .cont-tel {
+        width: ;
+        height: 48px;
+    }
+}
+
+
+/*---------десктоп-------*/
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1280px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
