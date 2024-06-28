@@ -9,6 +9,7 @@
         color: #0c0c0c;
         margin-bottom: 20px;
 }
+
 .collection {
     color: #3350e9;
 }
@@ -20,6 +21,7 @@
         color: rgba(12, 12, 12, 0.7);
         margin-bottom: 28px;
 }
+
 .hero-center {
     display: flex;
     justify-content: space-between;
@@ -52,10 +54,60 @@
         color: #0c0c0c;
 }
 
+
 .scroll:hover {
     color: #3350e9;
 }
 
 .hero-picture {
 border-radius: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding-top: 80px;
+    }
+    .hero-info {
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero-title {
+        font-size: 70px;
+            line-height: 0.86;
+        width: 557px;
+    }
+    .hero-text {
+        width: 480px;
+        font-size: 16px;
+            line-height: 1.25;
+    }
+    .hero-center {
+        position: relative;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .rev-item {
+        width: 56px;
+        height: 56px;
+    }
+    .rev-picture {
+        width: 56px;
+    }
+
+    .rev-picture .second {
+        left: ;
+    position: absolute;
+    }
+
+    .rev-picture .third {
+    position: absolute;
+    }
+    .scroll-link {
+        font-size: 20px;
+            line-height: 1;
+            letter-spacing: -0.02em;
+    }
+    .hero-picture {
+        border-radius: 50px;
+    }
 }
