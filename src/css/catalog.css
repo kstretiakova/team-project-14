@@ -1,3 +1,6 @@
+/* Catalog section */
+
+/* Mobile First */
 .catalog-section {
   margin-top: 60px;
   margin-bottom: 60px;
@@ -15,8 +18,9 @@
   flex-wrap: wrap;
   gap: 20px;
 }
-.card-item {
-  max-width: 100%;
+.card-item,
+.card-item-additional {
+  max-width: 335px;
   height: auto;
   padding: 24px 28px;
   background-color: #f3f3f3;
@@ -65,5 +69,26 @@
   }
   .btn-images:focus {
     background-color: #1f3cd4;
+  }
+}
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@;
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  .card-list {
+    gap: 32px 16px;
+  }
+
+  .card-item,
+  .card-item-additional {
+    max-width: 344px;
+    padding: 24px 32px;
+  }
+  .card-item {
+    width: calc((100% - 16px) / 2);
   }
 }
