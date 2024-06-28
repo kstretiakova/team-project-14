@@ -38,6 +38,7 @@
 }
 .rev-picture {
     position: absolute;
+    width: 44px;
     border-radius: 100%;
 }
 
