@@ -1,0 +1,61 @@
+.container {
+    padding-top: 60px;
+}
+.hero-title {
+    font-weight: 600;
+        font-size: 40px;
+        line-height: 0.95;
+        letter-spacing: -0.02em;
+        color: #0c0c0c;
+        margin-bottom: 20px;
+}
+.collection {
+    color: #3350e9;
+}
+.hero-text {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.28571;
+        letter-spacing: -0.02em;
+        color: rgba(12, 12, 12, 0.7);
+        margin-bottom: 28px;
+}
+.hero-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 28px;
+}
+.hero-reviewers {
+    display: flex;
+}
+.rev-item {
+    border-radius: 100%;
+    border: 2px solid #fbfbfb;
+    background-color: #fbfbfb;
+        width: 44px;
+        height: 44px;
+}
+.rev-picture {
+    position: absolute;
+    width: 44px;
+    border-radius: 100%;
+}
+
+.scroll-link {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.28571;
+        letter-spacing: -0.02em;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #0c0c0c;
+}
+
+.scroll:hover {
+    color: #3350e9;
+}
+
+.hero-picture {
+border-radius: 30px;
+}
