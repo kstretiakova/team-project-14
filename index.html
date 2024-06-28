@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     
     <script type="module" crossorigin src="/team-project-14/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/team-project-14/assets/index-7b2668e4.css">
+    <link rel="stylesheet" href="/team-project-14/assets/index-5617b209.css">
   </head>
   <body>
     
@@ -248,7 +248,44 @@
     </div>
 </section>
 
-      
+          <div class="contact-us__container">
+        <h2 class="contact-us__title">Contact Us</h2>
+        <div class="contact-us__content">
+            <div class="contact-us__container__wrap">
+                <p class="contact-us__container__text">Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.</p>
+                <form class="contact-us__container__form">
+                    <div class="">
+                        <label for="user-name" class="visually-hidden">Name</label>
+                        <input type="text" name="user-name" class="contact-us__container__form__input" placeholder="Name" id="user-name" required>
+                    </div>
+                    <div class="">
+                        <label for="user-email" class="visually-hidden">Email</label>
+                        <input type="text" name="user-email" class="contact-us__container__form__input" placeholder="Email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" id="user-email" required>
+                    </div>
+                    <div class="">
+                        <label for="user-tel" class="visually-hidden">Phone</label>
+                        <input type="text" name="user-tel" class="contact-us__container__form__input" placeholder="+380" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" id="user-tel" required>
+                    </div>
+                    <div class="">
+                        <label for="user-comment" class="visually-hidden">Comment</label>
+                        <textarea name="user-comment" class="contact-us__container__form__input contact-us__container__form__textarea" placeholder="Comment" maxlength="500" id="user-comment" required></textarea>
+                    </div>
+                    <button class="contact-us__container__form__button" type="submit">Send</button>
+                </form>
+            </div>
+            <picture class="contact-us__container__picture">
+                <source
+                media="(min-width: 1280px)"
+                srcset="/team-project-14/assets/contact-us-img-desk1x-1ca2eed2.jpg 1x, /team-project-14/assets/contact-us-img-desk2x-e41d2dc9.jpg 2x">
+                <source
+                media="(min-width: 768px)"
+                srcset="/team-project-14/assets/contact-us-img-tab1x-781e7094.jpg 1x, /team-project-14/assets/contact-us-img-tab2x-a2bcc199.jpg 2x">
+                <img src="/team-project-14/assets/contact-us-img-mob2x-5e07d317.jpg" alt="clock"/>
+            </picture>
+          </div>
+          
+          
+    </div>
     </main>
 
     
