@@ -9,6 +9,7 @@
         color: #0c0c0c;
         margin-bottom: 20px;
 }
+
 .collection {
     color: #3350e9;
 }
@@ -20,6 +21,7 @@
         color: rgba(12, 12, 12, 0.7);
         margin-bottom: 28px;
 }
+
 .hero-center {
     display: flex;
     justify-content: space-between;
@@ -35,11 +37,25 @@
     background-color: #fbfbfb;
         width: 44px;
         height: 44px;
+        flex-shrink: 0;
 }
+.hero-reviewers .rev-item {
+    position: relative;
+}
+.hero-reviewers .rev-item:nth-child(2) {
+    left: -12px;
+    z-index: 1;
+}
+
+.hero-reviewers .rev-item:nth-child(3) {
+    right: 25px;
+    z-index: 2;
+}
+
 .rev-picture {
-    position: absolute;
     width: 44px;
     border-radius: 100%;
+    flex-shrink: 0;
 }
 
 .scroll-link {
@@ -58,4 +74,82 @@
 
 .hero-picture {
 border-radius: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding-top: 80px;
+    }
+    .hero-info {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    .hero-title {
+        font-size: 70px;
+            line-height: 0.86;
+        width: 557px;
+    }
+
+    .hero-text {
+        width: 480px;
+        font-size: 16px;
+            line-height: 1.25;
+            margin-bottom: 0;
+    }
+    
+    .hero-center {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 0;
+    }
+    .reviewers {
+        max-width: 136px;
+    }
+    
+    .rev-item {
+        width: 56px;
+        height: 56px;
+    }
+    .rev-picture {
+        width: 56px;
+    }
+    
+        .hero-reviewers .rev-item:nth-child(2) {
+            left: -15px;
+        }
+    
+        .hero-reviewers .rev-item:nth-child(3) {
+            right: 30px;
+        }
+
+    .scroll-link {
+        font-size: 20px;
+            line-height: 1;
+            letter-spacing: -0.02em;
+    }
+    .hero-picture {
+        border-radius: 50px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .hero-title {
+        font-size: 72px;
+            line-height: 0.88;
+        width: 597px;
+    }
+    .reviewers {
+        max-width: 146px;
+    }
+        .rev-item {
+            width: 60px;
+            height: 60px;
+        }
+    
+        .rev-picture {
+            width: 60px;
+        }
 }
