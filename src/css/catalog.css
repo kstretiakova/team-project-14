@@ -1,6 +1,7 @@
+/* Catalog Section */
+
+/* Mobile First */
 .catalog-section {
-  /* margin-top: 60px;
-  margin-bottom: 60px; */
 }
 .catalog-title {
   font-weight: 600;
@@ -13,6 +14,7 @@
 .card-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
 }
 .card-item {
@@ -24,7 +26,7 @@
   border: 1px solid rgba(12, 12, 12, 0.05);
 }
 .card-item-additional {
-  max-width: 100%;
+  max-width: 335px;
   height: auto;
   padding: 24px 28px;
   background-color: #f3f3f3;
@@ -75,5 +77,42 @@
   }
   .btn-images:focus {
     background-color: #1f3cd4;
+  }
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  .catalog-title {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  .card-list {
+    gap: 16px 32px;
+  }
+  .card-item {
+    max-width: 344px;
+    padding: 24px 32px;
+  }
+  .card-item-additional {
+    max-width: 344px;
+    padding: 24px 32px;
+  }
+  .card-item {
+    width: calc((100% - 32px) / 2);
+  }
+  .card-item-additional {
+    width: calc((100% - 32px) / 2);
+  }
+  .card-item-title {
+    font-size: 20px;
+    line-height: 1;
+  }
+  .btn-images {
+    display: none;
   }
 }
