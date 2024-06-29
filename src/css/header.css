@@ -1,30 +1,95 @@
 .header {
-  padding: 200px 27.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 211px;
+  padding: 20px;
+  min-width: 375px;
+  height: 74px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .logo-head {
-
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
 }
-.open-mobile-menu {
 
+.mobile-icon {
+  fill: #000000;
+}
+.btn-open-mobile-menu {
+  width: 34px;
+  height: 34px;
+  display: block;
+  border: none;
+  background-color: #fff;
 }
 
-.visibility-hidden {
+/* modal */
+.modal-menu {
+  position: absolute;
+  width: 200px;
+  height: 812px;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  padding-top: 240px;
+  padding-left: 63px;
+  padding-right: 64px;
+}
+
+.btn-close-mobile-menu {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  background-color: #e7e9fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  display: block;
+  position: absolute;
+  z-index: 999;
+  width: 55%;
+  height: 812px;
+  top: 0;
+  right: 0;
+  padding-top: 24px;
+  padding-bottom: 40px;
+  padding-left: 16px;
+  padding-right: 24px;
+}
+.is-mob-open {
+  opacity: 0;
   visibility: hidden;
 }
-.nav-list {
+.nav-container {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  flex-direction: column; 
+  gap: 34px;
+}
+.nav-list {
+  
 }
 
 .nav-link {
   font-family: "Gilroy", sans-serif;
-  font-size: 60px;
+  font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  text-align: center;
+  color: #fbfbfb;
 }
 
 .nav-link:hover,
