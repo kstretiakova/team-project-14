@@ -111,6 +111,9 @@
   .card-item-title {
     font-size: 20px;
     line-height: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .btn-images {
     display: none;
