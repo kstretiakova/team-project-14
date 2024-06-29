@@ -92,7 +92,7 @@
     margin-bottom: 40px;
   }
   .card-list {
-    gap: 16px 32px;
+    gap: 32px 16px;
   }
   .card-item {
     max-width: 344px;
@@ -114,5 +114,28 @@
   }
   .btn-images {
     display: none;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 65px;
+  }
+  .card-list {
+    gap: 32px 23px;
+  }
+  .card-item {
+    max-width: 368px;
+  }
+  .card-item-additional {
+    max-width: 368px;
+  }
+  .card-item {
+    width: calc((100% - 23px * 2) / 3);
+  }
+  .card-item-additional {
+    width: calc((100% - 23px * 2) / 3);
   }
 }
