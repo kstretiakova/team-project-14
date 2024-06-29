@@ -70,7 +70,10 @@
 }
 
 .about-us-btn-box {
+  display: flex;
   margin-top: 40px;
+  width: 160px;
+  height: 48px;
 }
 
 /*picture mob*/
