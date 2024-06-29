@@ -29,7 +29,7 @@
 }
 
 /* modal */
-.modal-menu {
+/* .modal-menu {
   position: absolute;
   width: 200px;
   height: 812px;
@@ -39,7 +39,7 @@
   padding-top: 240px;
   padding-left: 63px;
   padding-right: 64px;
-}
+} */
 
 .btn-close-mobile-menu {
   position: absolute;
@@ -64,14 +64,22 @@
   height: 812px;
   top: 0;
   right: 0;
-  padding-top: 24px;
-  padding-bottom: 40px;
-  padding-left: 16px;
-  padding-right: 24px;
+  padding-top: 240px;
+  padding-left: 63px;
+  padding-right: 63px;
+  background-size: cover;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),
+    url("../img/img-menu-bg/menu-bg-img-mob1x.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .is-mob-open {
-  opacity: 0;
-  visibility: hidden;
+  opacity: 1;
+  visibility: visible;
 }
 .nav-container {
   display: flex;
