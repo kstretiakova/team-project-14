@@ -179,6 +179,11 @@
     height: 36px;
   }
 
+  .header-svg:hover,
+  .header-svg:focus {
+    fill: #3350e9;
+  }
+
   .header-social-item {
     display: inline-block;
   }
