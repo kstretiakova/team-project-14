@@ -1,5 +1,5 @@
 .reviews {
-    padding: 60px 0;
+    margin: 60px 0;
     }
     .name-reviews {
         font-weight: 600;
@@ -76,15 +76,15 @@
     }
 
     .reviews {
-        padding: 60px 0;
+        margin: 60px 0;
         }
         .name-reviews {
             font-weight: 600;
-            font-size: 32px;
-            line-height: 1;
+            font-size: 48px;
+            line-height: 0.92;
             letter-spacing: -0.02em;
             color: #0c0c0c;
-            margin-bottom: 24px;
+            margin-bottom: 40px;
         }
         
         .list-reviews {
@@ -152,7 +152,7 @@
 
 @media screen and (min-width: 1280px) {
     .reviews {
-        padding: 100px 0;
+        margin: 100px 0;
         }
         .name-reviews {
             font-weight: 600;
