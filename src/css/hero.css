@@ -57,7 +57,11 @@
     border-radius: 100%;
     flex-shrink: 0;
 }
-
+.rev-picture:hover,
+.rev-picture:focus {
+    transition: transform 0.9s ease;
+    transform: scale(1.9);
+}
 .scroll-link {
     font-weight: 500;
         font-size: 14px;
