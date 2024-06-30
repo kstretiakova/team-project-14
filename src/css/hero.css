@@ -1,5 +1,5 @@
 .container {
-    padding-top: 60px;
+    margin-top: 60px;
 }
 .hero-title {
     font-weight: 600;
@@ -68,7 +68,7 @@
         color: #0c0c0c;
 }
 
-.scroll:hover {
+.scroll-link:hover {
     color: #3350e9;
 }
 
@@ -78,7 +78,7 @@ border-radius: 30px;
 
 @media screen and (min-width: 768px) {
     .container {
-        padding-top: 80px;
+        margin-top: 80px;
     }
     .hero-info {
         display: flex;
