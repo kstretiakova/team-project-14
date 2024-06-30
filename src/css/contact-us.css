@@ -55,7 +55,7 @@
 }
 .contact-us__container__form__textarea{
     padding-bottom: 54px;
-    height: 84px;
+    height: 87px;
     resize: none;
     color: #0c0c0c;
 }
@@ -78,6 +78,7 @@
     line-height: 129%;
     text-align: center;
     color: #fbfbfb;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-us__container__form__button:focus,
 .contact-us__container__form__button:hover{
