@@ -128,9 +128,14 @@ a:active {
         padding: 40px 28px 28px;
     }
 
+    .logo-section {
+        margin-bottom: 24px;
+    }
+
     .social-link {
         width: 34px;
         height: 34px;
+        opacity: 0.8;
     }
 
     .social-icon {
@@ -168,7 +173,6 @@ a:active {
     }
 
     .logo-section {
-        padding-bottom: 28px;
         flex-wrap: wrap;
         align-items: flex-start;
         gap: 16px;
