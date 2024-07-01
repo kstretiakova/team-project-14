@@ -11,31 +11,28 @@
   overflow: hidden;
 }
 
-.advertisement {
-  margin: 60px 0;
+.adv {
   padding: 30px 0;
 }
 
 @media only screen and (min-width: 768px) {
-  .advertisement {
-    margin: 80px 0;
+  .adv {
     padding: 40px 0;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .advertisement {
-    margin: 100px 0;
+  .adv {
     padding: 50px 0;
   }
 }
 
-.advertisment-wrapper {
+.adv-container {
   display: flex;
   align-items: center;
 }
 
-.advertisment-left {
+.adv-box {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -49,7 +46,7 @@
   z-index: 2;
 }
 
-.advertisement-left::after {
+.adv-box::after {
   content: '';
   position: absolute;
   top: 0;
@@ -63,13 +60,13 @@
   z-index: 1;
 }
 @media (min-resolution: 192dpi) {
-  .advertisment-left {
+  .adv-box {
     background-image: url(../img/img-advertisement/advertisement-bg-img-mob@2x.png);
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .advertisment-left {
+  .adv-box {
     background-image: url(../img/img-advertisement/advertisement-bg-img-tab1x.png);
     padding: 80px 64px;
   }
@@ -82,7 +79,7 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .advertisment-left {
+  .adv-box {
     justify-content: space-between;
     background-image: url(../img/img-advertisement/advertisement-bg-img-desk1x.png);
     flex-direction: row;
@@ -92,16 +89,16 @@
 }
 
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
-  .advertisment-left {
+  .adv-box {
     background-image: url(../img/img-advertisement/advertisement-bg-img-desk@2x.png);
   }
 }
 
-.advertisment-text-grey {
+.adv-text-grey {
   color: rgba(251, 251, 251, 0.5);
 }
 
-.advertisment-text {
+.adv-text {
   color: #fbfbfb;
   font-size: 32px;
   font-weight: 600;
@@ -111,7 +108,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .advertisment-text {
+  .adv-text {
     font-size: 48px;
     font-weight: 600;
     line-height: 0.92;
@@ -121,18 +118,18 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .advertisment-text {
+  .adv-text {
     width: 690px;
     margin-bottom: 0;
   }
 }
 
-.advertisment-right {
+.adv-box-link {
   width: 160px;
   height: 48px;
 }
 
-.advertisement-btn {
+.adv-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,7 +141,7 @@
   padding: 12px 0;
 }
 
-.advertisment-right > a {
+.adv-box-link > a {
   color: #fbfbfb;
   text-align: center;
   font-size: 14px;
@@ -155,8 +152,8 @@
   transition: color, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.advertisement-btn:hover,
-.advertisement-btn:focus {
+.adv-btn:hover,
+.adv-btn:focus {
   color: #0c0c0c;
   border: 1px solid rgba(251, 251, 251, 0.15);
   background: #fbfbfb;
