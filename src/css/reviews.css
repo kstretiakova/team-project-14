@@ -1,5 +1,5 @@
 .reviews {
-    margin: 60px 0;
+    padding: 60px 0;
     }
     .name-reviews {
         font-weight: 600;
@@ -17,13 +17,15 @@
     flex-direction: row;
     gap: 20px;
     border-radius: 30px;
-    height: 262px;
     }
     
+.item-reviews {
+    width: 335px;
+}
+
     .item-cover {
         border-radius: 30px;
         padding: 32px 36px;
-        height: 262px;
         background-color: #f3f3f3;
     }
     
@@ -43,13 +45,13 @@
         transition: transform 0.3s ease;
     }
     
+
     .about-rev {
         display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
-    height: 208px;
     }
     
     .name-reviewer {
@@ -81,7 +83,7 @@
     }
 
     .reviews {
-        margin: 60px 0;
+        padding: 60px 0;
         }
         .name-reviews {
             font-weight: 600;
@@ -99,15 +101,14 @@
         flex-direction: row;
         gap: 16px;
         border-radius: 30px;
-        width: 344px;
-        height: 272px;
         }
-        
+        .item-reviews,
+        .item-reviews-second {
+            width:344px;
+                }
         .item-cover {
             border-radius: 30px;
             padding: 32px 36px;
-            width: 344px;
-            height: 272px;
             background-color: #f3f3f3;
         }
         
@@ -128,8 +129,6 @@
         justify-content: flex-start;
         flex-direction: column;
         gap: 8px;
-        width: 272px;
-        height: 208px;
         }
         
         .name-reviewer {
@@ -157,7 +156,7 @@
 
 @media screen and (min-width: 1280px) {
     .reviews {
-        margin: 100px 0;
+        padding: 100px 0;
         }
         .name-reviews {
             font-weight: 600;
@@ -175,15 +174,17 @@
         flex-direction: row;
         gap: 20px;
         border-radius: 30px;
-        width: 370px;
-        height: 272px;
         }
         
+        .item-reviews,
+        .item-reviews-second,
+        .item-reviews-third {
+            width:370px;
+                }
+
         .item-cover {
             border-radius: 30px;
             padding: 32px 36px;
-            width: 370px;
-            height: 272px;
             background-color: #f3f3f3;
         }
         
@@ -204,8 +205,6 @@
         justify-content: flex-start;
         flex-direction: column;
         gap: 8px;
-        width: 298px;
-        height: 208px;
         }
         
         .name-reviewer {
