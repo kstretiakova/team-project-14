@@ -1,14 +1,15 @@
+.section__contact-us{
+    padding: 30px 0;
+}
 .contact-us__container{
     display: inline-block;
     max-width: 375px;
     padding: 0 20px;
     margin: 0 auto;
-    margin-bottom: 60px;
     display: flex;
     flex-direction: column;
 }
 .contact-us__title{
-    font-family: "Gilroy", sans-serif;
     font-weight: 600;
     font-size: 32px;
     line-height: 100%;
@@ -24,7 +25,6 @@
     padding: 48px 28px;
 }
 .contact-us__container__text{
-    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 129%;
@@ -33,7 +33,7 @@
     margin-bottom: 28px;
     color: #0c0c0c;
 }
-.contact-us__container__form{
+.contact-us__container__form__wrap-label-input{
     display: flex;
     flex-direction: column;
     gap: 18px;
@@ -54,13 +54,11 @@
     border: 1px solid #3350e9;
 }
 .contact-us__container__form__textarea{
-    padding-bottom: 54px;
     height: 87px;
     resize: none;
     color: #0c0c0c;
 }
 .contact-us__container__form__input::placeholder{
-    font-family: "Gilroy", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 129%;
@@ -71,8 +69,8 @@
     padding: 12px 50px;
     width: 134px;
     height: 42px;
+    margin-top: 28px;
     background-color: #3350e9;
-    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 129%;
@@ -96,10 +94,12 @@
     object-fit: cover;
 } 
 @media screen and (min-width: 768px){
+    .section__contact-us{
+        padding: 40px 0;
+    }
     .contact-us__container{
         padding: 0 32px;
         max-width: 768px;
-        margin-bottom: 80px;
     }
     .contact-us__title{
         font-size: 48px;
@@ -128,6 +128,7 @@
         padding: 17px 63px;
         width: 160px;
         height: 52px;
+        margin-top: 32px;
     }
     .contact-us__container__picture{
         border-radius: 50px;
@@ -135,11 +136,13 @@
     }
 }
 @media screen and (min-width: 1280px){
+    .section__contact-us{
+        padding: 50px 0;
+    }
     .contact-us__container{
         max-width: 1280px;
         padding: 0 65px;
         justify-content: center;
-        margin-bottom: 100px;
     }
     .contact-us__content{
         display: flex;
