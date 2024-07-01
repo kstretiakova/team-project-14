@@ -27,12 +27,12 @@
   }
 }
 
-.advertisment-wrapper {
+.advertisment-container {
   display: flex;
   align-items: center;
 }
 
-.advertisment-left {
+.advertisment-box {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -46,7 +46,7 @@
   z-index: 2;
 }
 
-.advertisement-left::after {
+.advertisement-box::after {
   content: '';
   position: absolute;
   top: 0;
@@ -60,26 +60,26 @@
   z-index: 1;
 }
 @media (min-resolution: 192dpi) {
-  .advertisment-left {
+  .advertisment-box {
     background-image: url(../img/img-advertisement/advertisement-bg-img-mob@2x.png);
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .advertisment-left {
+  .advertisment-box {
     background-image: url(../img/img-advertisement/advertisement-bg-img-tab1x.png);
     padding: 80px 64px;
   }
 }
 
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
-  .advertisment-left {
+  .advertisment-box {
     background-image: url(../img/img-advertisement/advertisement-bg-img-tab2x.png);
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .advertisment-left {
+  .advertisment-box {
     justify-content: space-between;
     background-image: url(../img/img-advertisement/advertisement-bg-img-desk1x.png);
     flex-direction: row;
@@ -89,7 +89,7 @@
 }
 
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
-  .advertisment-left {
+  .advertisment-box {
     background-image: url(../img/img-advertisement/advertisement-bg-img-desk@2x.png);
   }
 }
@@ -124,7 +124,7 @@
   }
 }
 
-.advertisment-right {
+.advertisment-box-link {
   width: 160px;
   height: 48px;
 }
@@ -141,7 +141,7 @@
   padding: 12px 0;
 }
 
-.advertisment-right > a {
+.advertisment-box-link > a {
   color: #fbfbfb;
   text-align: center;
   font-size: 14px;
