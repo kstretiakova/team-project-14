@@ -83,7 +83,7 @@
     }
 
     .reviews {
-        margin: 60px 0;
+        padding: 60px 0;
         }
         .name-reviews {
             font-weight: 600;
@@ -102,7 +102,8 @@
         gap: 16px;
         border-radius: 30px;
         }
-        .item-reviews {
+        .item-reviews,
+        .item-reviews-second {
             width:344px;
                 }
         .item-cover {
@@ -155,7 +156,7 @@
 
 @media screen and (min-width: 1280px) {
     .reviews {
-        margin: 100px 0;
+        padding: 100px 0;
         }
         .name-reviews {
             font-weight: 600;
@@ -175,7 +176,9 @@
         border-radius: 30px;
         }
         
-        .item-reviews {
+        .item-reviews,
+        .item-reviews-second,
+        .item-reviews-third {
             width:370px;
                 }
 
