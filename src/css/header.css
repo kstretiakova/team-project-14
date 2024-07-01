@@ -149,9 +149,9 @@
  .header-social-item {
   border: 1px solid rgba(251, 251, 251, 0.1);
   border-radius: 10px;
-  width: 36px;
-  height: 36px;
   padding: 8px;
+  width: 34px;
+  height: 34px;
 }
 .header-link {
 }
@@ -215,7 +215,7 @@
  @media screen and (min-width: 1280px) {
   .header-up {
     padding: 26px 0px 0px 0px;
-    max-width: 1280px;
+    min-width: 1280px;
     height: 88px;
     margin: 0 auto;
     background-color: #fff;
@@ -246,7 +246,7 @@
     align-items: center;
     position: static;
     padding: 0;
-    gap: 203;
+    gap: 203px;
     visibility: visible;
     opacity: 1;
   }
@@ -309,6 +309,10 @@
   .header-social-item {
    display: inline-block;
    padding: 8px;
+   border: 1px solid rgba(12, 12, 12, 0.1);
+   border-radius: 10px;
+   width: 36px;
+   height: 36px;
   }
   .social-icon-svg {
     fill: #0C0C0C;
