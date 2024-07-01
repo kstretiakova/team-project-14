@@ -33,7 +33,7 @@
     margin-bottom: 28px;
     color: #0c0c0c;
 }
-.contact-us__container__form{
+.contact-us__container__form__wrap-label-input{
     display: flex;
     flex-direction: column;
     gap: 18px;
@@ -69,6 +69,7 @@
     padding: 12px 50px;
     width: 134px;
     height: 42px;
+    margin-top: 28px;
     background-color: #3350e9;
     font-weight: 500;
     font-size: 14px;
@@ -127,6 +128,7 @@
         padding: 17px 63px;
         width: 160px;
         height: 52px;
+        margin-top: 32px;
     }
     .contact-us__container__picture{
         border-radius: 50px;
