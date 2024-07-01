@@ -100,6 +100,7 @@ a:active {
     flex-direction: row;
     padding-bottom: 24px;
     border-bottom: 1px solid rgba(251, 251, 251, 0.2);
+    ;
     gap: 49px;
 }
 
