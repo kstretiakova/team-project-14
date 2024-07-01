@@ -1,13 +1,9 @@
 .header-up {
-  padding: 20px 0px 0px 0px;
-  max-width: 375px;
+  padding: 20px 0;
   height: 74px;
-  margin: 0 auto;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px 20px 0 20px;
-  min-width: 375px;
-  height: 74px;
   border-bottom: 1px solid #E7E9FC;
  }
  .header-container {
@@ -56,6 +52,10 @@
 .header-menu {
   display: none;
 }
+
+.header-menu-item {
+  padding: 10px 0;
+}
 .social-icon-svg {
   fill: rgba(251, 251, 251, 0.8);
 }
@@ -66,29 +66,33 @@
  .mobile-menu {
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: fixed;
   align-items: center;
   z-index: 999;
-  width: 55%;
-  height: 812px;
+  width: 200px;
+  height: 100%;
+  padding: 40px 0;
   top: 0;
   right: 0;
-  padding-top: 240px;
-  padding-left: 63px;
-  padding-right: 63px;
   background-size: cover;
     background-image: linear-gradient(
         to bottom,
        rgba(12, 12, 12, 0.92),
        rgba(12, 12, 12, 0.92)
     ),
-    url("../img/img-menu-bg/menu-bg-img-mob1x.jpg");
+    url("/img/img-menu-bg/menu-bg-img-mob1x.jpg");
     background-repeat: no-repeat;
     background-position: center;
     visibility: hidden;
     opacity: 0;
-    gap: 260px;
+    justify-content: space-between;
+    flex-grow: 1;
  }
+
+ .navi {
+  margin-top: auto;
+ }
+
  .is-mob-open {
   opacity: 1 !important;
   visibility: visible !important;
@@ -100,7 +104,7 @@
       rgba(12, 12, 12, 0.92),
       rgba(12, 12, 12, 0.92)
   ),
-  url("../img/img-menu-bg/menu-bg-img-mob2x.jpg");
+  url("/img/img-menu-bg/menu-bg-img-mob2x.jpg");
   }
 }
  .mobile-menu-list {
@@ -145,6 +149,7 @@
   flex-direction: row;
   flex-shrink: 0;
   gap: 10px;
+  margin-top: auto;
  }
  .header-social-item {
   border: 1px solid rgba(251, 251, 251, 0.1);
@@ -163,21 +168,21 @@
  }
  @media screen and (min-width: 768px) {
   .header-up {
-    padding: 26px 0px 0px 0px;
-    max-width: 768px;
+    padding: 26px 0;
     height: 92px;
-    margin: 0 auto;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   .header-container {
-    width: 704px;
-    height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
   }
+
+  .navi {
+    margin-top: auto;
+  }
+
   .header-logo {
     width: 112px;
     height: 24px;
@@ -188,15 +193,15 @@
     color: #0C0C0C;
   }
   .mobile-menu {
-    width: 42%;
-    height: 1024px;
-    padding-top: 310px;
+    width: 330px;
+    height: 100%;
+    padding: 50px 0;
     background-image: linear-gradient(
         to bottom,
        rgba(12, 12, 12, 0.92),
        rgba(12, 12, 12, 0.92)
     ),
-    url("../img/img-menu-bg/menu-bg-img-tab1x.jpg");
+    url("/img/img-menu-bg/menu-bg-img-tab1x.jpg");
   }
   .mobile-menu-list {
     row-gap: 32px;
@@ -208,26 +213,19 @@
         rgba(12, 12, 12, 0.92),
         rgba(12, 12, 12, 0.92)
     ),
-    url("../img/img-menu-bg/menu-bg-img-tab2x.jpg");
+    url("/img/img-menu-bg/menu-bg-img-tab2x.jpg");
     }
   }
  }
  @media screen and (min-width: 1280px) {
   .header-up {
-    padding: 26px 0px 0px 0px;
-    min-width: 1280px;
-    height: 88px;
-    margin: 0 auto;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   .header-container {
-   width: 1151px;
-   height: 36px;
    display: flex;
    align-items: center;
    justify-content: flex-start;
-   margin: 0 auto;
    gap: 203px;
   }
   .open-menu-btn {
@@ -238,15 +236,15 @@
     visibility: visible !important;
   } */
   .mobile-menu {
-    min-width: 505px;
-    height: 28px;
+    width: auto;
+    height: auto;
     background-image: none;
     display: flex;
     flex-direction: row;
     align-items: center;
     position: static;
     padding: 0;
-    gap: 203px;
+    justify-content: space-between;
     visibility: visible;
     opacity: 1;
   }
@@ -273,6 +271,7 @@
   .header-socials {
     align-items: center;
     justify-content: center;
+    margin-top: auto;
   }
   .header-menu-item {
    font-family: 'Gilroy', sans-serif;
@@ -322,4 +321,4 @@
     cursor: pointer;
     fill: #3350E9;
   }
- }
+}
