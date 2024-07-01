@@ -9,9 +9,8 @@
   min-width: 375px;
   height: 74px;
   border-bottom: 1px solid #E7E9FC;
-}
-
-.header-container {
+ }
+ .header-container {
   align-items: center;
   width: 100%;
   display: flex;
@@ -37,9 +36,8 @@
   stroke-width: 2.5px;
   stroke: #0C0C0C;
   display: block;
-}
-
-.close-menu-btn {
+ }
+ .close-menu-btn {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -54,7 +52,7 @@
   justify-content: center;
   align-items: center;
   visibility: visible;
-}
+ }
 .header-menu {
   display: none;
 }
@@ -65,8 +63,7 @@
 .header-link:focus > .social-icon-svg {
    fill: rgba(251,  251, 251, 1);
 }
-
-.mobile-menu {
+ .mobile-menu {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -91,13 +88,12 @@
     visibility: hidden;
     opacity: 0;
     gap: 260px;
-}
-.is-mob-open {
+ }
+ .is-mob-open {
   opacity: 1 !important;
   visibility: visible !important;
 }
-
-@media (min-resolution: 192dpi) {
+ @media (min-resolution: 192dpi) {
   .mobile-menu {
     background-image: linear-gradient(
       to bottom,
@@ -107,13 +103,13 @@
   url("../img/img-menu-bg/menu-bg-img-mob2x.jpg");
   }
 }
-.mobile-menu-list {
+ .mobile-menu-list {
   display: flex;
   flex-direction: column;
   align-items: center;
   row-gap: 24px;
-}
-.header-menu-item {
+ }
+ .header-menu-item {
   display: flex;
   font-family: "Gilroy", sans-serif;
   font-size: 14px;
@@ -127,7 +123,7 @@
 }
 .header-menu-item:hover,
 .header-menu-item:focus {
-color: #4D5AE5;
+ color: #4D5AE5;
 }
 .active::after {
   content: '';
@@ -140,8 +136,8 @@ color: #4D5AE5;
   bottom: -7px;
   left: 50%;
   transform: translateX(-50%);
-}
-.header-socials {
+ }
+ .header-socials {
   fill: white;
   width: 122px;
   height: 34px;
@@ -149,13 +145,13 @@ color: #4D5AE5;
   flex-direction: row;
   flex-shrink: 0;
   gap: 10px;
-}
-.header-social-item {
+ }
+ .header-social-item {
   border: 1px solid rgba(251, 251, 251, 0.1);
   border-radius: 10px;
-  width: 36px;
-  height: 36px;
   padding: 8px;
+  width: 34px;
+  height: 34px;
 }
 .header-link {
 }
@@ -164,8 +160,8 @@ color: #4D5AE5;
   border-radius: 10px;
   padding: 8px;
   fill: white;
-}
-@media screen and (min-width: 768px) {
+ }
+ @media screen and (min-width: 768px) {
   .header-up {
     padding: 26px 0px 0px 0px;
     max-width: 768px;
@@ -215,24 +211,24 @@ color: #4D5AE5;
     url("../img/img-menu-bg/menu-bg-img-tab2x.jpg");
     }
   }
-}
-@media screen and (min-width: 1280px) {
+ }
+ @media screen and (min-width: 1280px) {
   .header-up {
     padding: 26px 0px 0px 0px;
-    max-width: 1280px;
+    min-width: 1280px;
     height: 88px;
     margin: 0 auto;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   .header-container {
-width: 1151px;
-height: 36px;
-display: flex;
-align-items: center;
-justify-content: flex-start;
-margin: 0 auto;
-gap: 203px;
+   width: 1151px;
+   height: 36px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   margin: 0 auto;
+   gap: 203px;
   }
   .open-menu-btn {
     display: none;
@@ -250,7 +246,7 @@ gap: 203px;
     align-items: center;
     position: static;
     padding: 0;
-    gap: 203;
+    gap: 203px;
     visibility: visible;
     opacity: 1;
   }
@@ -279,15 +275,15 @@ gap: 203px;
     justify-content: center;
   }
   .header-menu-item {
-  font-family: 'Gilroy', sans-serif;
-font-weight: 500;
-font-size: 14px;
-line-height: 18px;
-text-align: center;
-color: #0C0C0C;
-display: block;
-transition: color 0.3s;
-position: relative;
+   font-family: 'Gilroy', sans-serif;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   text-align: center;
+   color: #0C0C0C;
+   display: block;
+   transition: color 0.3s;
+   position: relative;
   }
   .close-menu-btn {
     visibility: hidden;
@@ -299,20 +295,24 @@ position: relative;
     gap: 15px;
   }
   .header-svg {
-  border: 1px solid rgba(12, 12, 12, 0.1);
-  border-radius: 10px;
-  padding: 8px;
-  width: 36px;
-  height: 36px;
-  fill: #0C0C0C;
+   border: 1px solid rgba(12, 12, 12, 0.1);
+   border-radius: 10px;
+   padding: 8px;
+   width: 36px;
+   height: 36px;
+   fill: #0C0C0C;
   }
   .header-svg:hover,
   .header-svg:focus {
     fill: #3350E9;
   }
   .header-social-item {
-  display: inline-block;
-  padding: 8px;
+   display: inline-block;
+   padding: 8px;
+   border: 1px solid rgba(12, 12, 12, 0.1);
+   border-radius: 10px;
+   width: 36px;
+   height: 36px;
   }
   .social-icon-svg {
     fill: #0C0C0C;
@@ -322,4 +322,4 @@ position: relative;
     cursor: pointer;
     fill: #3350E9;
   }
-}
+ }
