@@ -1,5 +1,5 @@
 .about-us {
-  margin-top: 60px;
+  padding-top: 30px;
 }
 .about-us-container {
   display: flex;
@@ -9,9 +9,8 @@
   margin: 0 auto;
 }
 .about-us-container-wrap {
-  max-width: 335px;
   border-radius: 30px;
-  height: 446px;
+
   background: #f3f3f3;
   margin-bottom: 20px;
   padding: 40px 20px;
@@ -45,6 +44,8 @@
 .about-us-btn {
   border-radius: 16px;
   padding: 15px 37px;
+  margin-top: 40px;
+  display: inline-block;
   width: 160px;
   height: 48px;
   background-color: #3350e9;
@@ -60,12 +61,7 @@
 .about-us-btn:focus {
   background: #1f3cd4;
 }
-.about-us-btn-box {
-  display: flex;
-  margin-top: 40px;
-  width: 160px;
-  height: 48px;
-}
+
 /*picture mob*/
 .about-us-container-picture {
   border-radius: 30px;
@@ -89,10 +85,9 @@
   }
   .about-us-container-wrap {
     border-radius: 50px;
-    max-width: 704px;
+
     margin-bottom: 40px;
     padding: 80px 60px;
-    height: 512px;
   }
   .about-us-title {
     font-size: 48px;
@@ -124,8 +119,6 @@
     gap: 40px;
   }
   .about-us-container-wrap {
-    max-width: 580px;
-    height: 532px;
     margin: 0;
     padding: 80px 60px;
   }
