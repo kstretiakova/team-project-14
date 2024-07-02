@@ -42,7 +42,7 @@
   background: #0c0c0c;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../img/img-advertisement/advertisement-bg-img-mob1x.png);
+  background-image: url(../img/img-adv/adv-bg-img-mob1x.jpg);
   z-index: 2;
 }
 
@@ -61,7 +61,7 @@
 }
 @media (min-resolution: 192dpi) {
   .adv-box {
-    background-image: url(../img/img-advertisement/advertisement-bg-img-mob@2x.png);
+    background-image: url(/img/img-adv/adv-bg-img-mob@2x.png);
   }
 }
 
@@ -73,15 +73,15 @@
 }
 
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
-  .advertisment-left {
-    background-image: url(../img/img-advertisement/advertisement-bg-img-tab2x.png);
+  .adv-box {
+    background-image: url(/img/img-adv/adv-bg-img-tab2x.png);
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .adv-box {
     justify-content: space-between;
-    background-image: url(../img/img-advertisement/advertisement-bg-img-desk1x.png);
+    background-image: url(/img/img-adv/adv-bg-img-desk1x.png);
     flex-direction: row;
     align-items: flex-start;
     padding: 83px 80px;
@@ -90,8 +90,7 @@
 
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .adv-box {
-    background-image: url(../img/img-advertisement/advertisement-bg-img-desk@2x.png);
-  }
+    background-image: url(/img/img-adv/adv-bg-img-desk@2x.png);
 }
 
 .adv-text-grey {
