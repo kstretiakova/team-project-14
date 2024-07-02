@@ -1,5 +1,5 @@
 .section__contact-us{
-    padding: 30px 0;
+    padding: 60px 0;
 }
 .contact-us__container{
     display: inline-block;
@@ -95,7 +95,7 @@
 } 
 @media screen and (min-width: 768px){
     .section__contact-us{
-        padding: 40px 0;
+        padding: 80px 0;
     }
     .contact-us__container{
         padding: 0 32px;
@@ -137,7 +137,8 @@
 }
 @media screen and (min-width: 1280px){
     .section__contact-us{
-        padding: 50px 0;
+        padding-bottom: 100px;
+        padding-top: 0;
     }
     .contact-us__container{
         max-width: 1280px;
@@ -157,5 +158,9 @@
     }
     .contact-us__container__picture{
         width: 530px;
+    }
+
+    .contact-us__title {
+        margin-bottom: 40px;
     }
 }  

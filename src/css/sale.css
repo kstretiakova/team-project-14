@@ -1,5 +1,5 @@
 .section-sale {
-    padding: 30px 0;
+    padding: 60px 0;
 }
 
 .container-sale-nov{
@@ -47,8 +47,8 @@
     background: url("path_to_image");
 
 }
-.sale-images-big:hover,
-.sale-images-big:focus {
+.sale-list-big:hover,
+.sale-list-big:focus {
     transform: rotate(-180deg);
 }
 .container-sale-ty {
@@ -208,7 +208,7 @@
         padding: 0 32px;
     }
     .section-sale {
-        padding: 40px 0;
+        padding: 80px 0;
     }
     .sale-content{
         display: flex;
@@ -332,11 +332,10 @@
         margin-bottom: 30px;
     }
     .section-sale {
-        padding: 50px 0;
+        padding: 0;
         width: 1280px;
         margin-left: 0;
         margin: 0 auto;
-        margin-top: 100px;
     }
     .container-sale-nov {
         max-width: 1280px;
