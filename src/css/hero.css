@@ -1,0 +1,161 @@
+.hero {
+    padding-top: 60px;
+}
+.hero-title {
+    font-weight: 600;
+        font-size: 40px;
+        line-height: 0.95;
+        letter-spacing: -0.02em;
+        color: #0c0c0c;
+        margin-bottom: 20px;
+}
+
+.collection {
+    color: #3350e9;
+}
+.hero-text {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.28571;
+        letter-spacing: -0.02em;
+        color: rgba(12, 12, 12, 0.7);
+        margin-bottom: 28px;
+}
+.hero-info {
+    margin-bottom: 28px;
+}
+
+.hero-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.hero-reviewers {
+    display: flex;
+}
+.rev-item {
+    border-radius: 100%;
+    border: 2px solid #fbfbfb;
+    background-color: #fbfbfb;
+        width: 44px;
+        height: 44px;
+        flex-shrink: 0;
+}
+.hero-reviewers .rev-item {
+    position: relative;
+}
+.hero-reviewers .rev-item:nth-child(2) {
+    left: -12px;
+    z-index: 1;
+}
+
+.hero-reviewers .rev-item:nth-child(3) {
+    right: 25px;
+    z-index: 2;
+}
+
+.rev-picture {
+    width: 44px;
+    border-radius: 100%;
+    flex-shrink: 0;
+}
+.rev-picture:hover,
+.rev-picture:focus {
+    transition: transform 0.9s ease;
+    transform: scale(1.9);
+}
+.scroll-link {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.28571;
+        letter-spacing: -0.02em;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #0c0c0c;
+}
+
+.scroll-link:hover {
+    color: #3350e9;
+}
+
+.hero-picture {
+border-radius: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        padding-top: 80px;
+    }
+    .hero-info {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    .hero-title {
+        font-size: 70px;
+            line-height: 0.86;
+        width: 557px;
+    }
+
+    .hero-text {
+        width: 480px;
+        font-size: 16px;
+            line-height: 1.25;
+            margin-bottom: 0;
+    }
+    
+    .hero-center {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 0;
+    }
+    .reviewers {
+        max-width: 136px;
+    }
+    
+    .rev-item {
+        width: 56px;
+        height: 56px;
+    }
+    .rev-picture {
+        width: 56px;
+    }
+    
+        .hero-reviewers .rev-item:nth-child(2) {
+            left: -15px;
+        }
+    
+        .hero-reviewers .rev-item:nth-child(3) {
+            right: 30px;
+        }
+
+    .scroll-link {
+        font-size: 20px;
+            line-height: 1;
+            letter-spacing: -0.02em;
+    }
+    .hero-picture {
+        border-radius: 50px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .hero-title {
+        font-size: 72px;
+            line-height: 0.88;
+        width: 597px;
+    }
+    .reviewers {
+        max-width: 146px;
+    }
+        .rev-item {
+            width: 60px;
+            height: 60px;
+        }
+    
+        .rev-picture {
+            width: 60px;
+        }
+}

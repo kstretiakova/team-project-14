@@ -67,7 +67,7 @@
 
 @media only screen and (min-width: 768px) {
   .adv-box {
-    background-image: url(/img/img-adv/adv-bg-img-tab1x.png);
+    background-image: url(../img/img-advertisement/advertisement-bg-img-tab1x.png);
     padding: 80px 64px;
   }
 }
@@ -91,7 +91,6 @@
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .adv-box {
     background-image: url(/img/img-adv/adv-bg-img-desk@2x.png);
-  }
 }
 
 .adv-text-grey {

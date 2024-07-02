@@ -1,0 +1,369 @@
+.section-sale {
+    padding: 30px 0;
+}
+
+.container-sale-nov{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 375px;
+}
+.sale-link {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+.sale-logo {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #0C0C0C;
+    margin-bottom: 24px;
+}
+.sale-list {
+    display: block;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
+    width: 80px;
+    height: 80px;
+    background: #F3F3F3;
+    padding: 13px 14px;
+}
+.sale-images {
+    
+    background: url("path_to_image");
+}
+.sale-list-big {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    width: 335px;
+    height: 385px;
+    background: #F3F3F3;
+    padding: 50px;
+}
+.sale-images-big {
+    width: 235px;
+    height: 285px;
+    background: url("path_to_image");
+
+}
+.sale-images-big:hover,
+.sale-images-big:focus {
+    transform: rotate(-180deg);
+}
+.container-sale-ty {
+    border-radius: 30px;
+    width: 335px;
+    background-color: #3350E9;
+    margin-top: 20px;
+}
+.container-sale-ty-m {
+    padding: 48px 28px;
+}
+.sale-logo-ty {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.02em;
+    color: #FBFBFB;
+    width: 279px;
+    margin-bottom: 10px;
+}
+.sale-text {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+    margin-bottom: 20px;
+}
+.sale-current-price {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    color: #FBFBFB;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    background-color: rgba(251, 251, 251, 0.1);
+    border-radius: 8px;
+    width: 68px;
+    height: 32px;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+}
+.sale-old-price {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+    align-items: center;
+}
+.sale-text-fri {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+    width: 279px;
+    margin-bottom: 28px;
+}
+.sale-price{
+    margin-bottom: 28px;
+}
+.sale-gryp {
+    width: 279px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:8px;
+}
+.sale-button-f {
+    
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 133%;
+    color: #FBFBFB;
+    background-color: #3350E9;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 11px;
+    width: 128px;
+    height: 32px;
+}
+.sale-button-gr {
+    
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 133%;
+    color: #FBFBFB;
+    background-color: #3350E9;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 11px;
+    width: 123px;
+    height: 32px;
+}
+.sale-button-at {
+    
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 133%;
+    color: #FBFBFB;
+    background-color: #3350E9;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+    width: 64px;
+    height: 32px;
+}
+.sale-button-go {
+    
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 133%;
+    color: #FBFBFB;
+    background-color: #3350E9;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+    width: 58px;
+    height: 32px;
+}
+.sale-button-co {
+    
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 133%;
+    color: #FBFBFB;
+    background-color: #3350E9;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+    width: 94px;
+    height: 32px;
+}
+.sale-button-ad {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 133%;
+    color: #FBFBFB;
+    background-color: #3350E9;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+    width: 85px;
+    height: 32px;
+}
+@media screen and (min-width:768px) {
+    .container-sale-nov {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 0 32px;
+    }
+    .section-sale {
+        padding: 40px 0;
+    }
+    .sale-content{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;
+    }
+    
+    .section-sale__wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sale-logo {
+        font-size: 48px;
+        line-height: 92%;
+        margin-bottom: 40px;
+    }
+    .sale-link {
+        display: block;
+        padding: 0px;
+        margin-bottom: 0;
+    }
+    .sale-list {
+        border-radius: 20px;
+        width: 132px;
+        height: 132px;
+        margin-bottom: 10px;
+    }
+    .sale-list:last-child{
+        margin-bottom: 0;
+    }
+    .sale-images {
+        width: 96px;
+        height: 100px;
+    }
+    .sale-list-big {
+        border-radius: 50px;
+        width: 552px;
+        height: 558px;
+        padding: 80px 112px;
+        margin-left: 20px;
+    }
+    .sale-images-big {
+        width: 328px;
+        height: 398px;
+    }
+    .container-sale-ty {
+        width: 704px;
+        margin-top: 0px;
+    }
+    .container-sale-ty-m {
+        padding: 60px 60px;
+    }
+    .sale-logo-ty {
+        font-size: 32px;
+        line-height: 112%;
+        width: 436px;
+    }
+    .sale-current-price {
+        width: 78px;
+    }
+    .sale-text-fri {
+        font-size: 16px;
+        line-height: 125%;
+        width: 584px;
+    }
+    .sale-gryp {
+        width: 398px;
+    }
+    .sale-button-f {
+        font-size: 14px;
+        line-height: 129%;
+        width: 145px;
+        height: 34px;
+    }
+    .sale-button-gr {
+        font-size: 14px;
+        line-height: 129%;
+        width: 139px;
+        height: 34px;
+    }
+    .sale-button-at {
+        font-size: 14px;
+        line-height: 129%;
+        width: 70px;
+        height: 34px;
+    }
+    .sale-button-go {
+        font-size: 14px;
+        line-height: 129%;
+        width: 64px;
+        height: 34px;
+    }
+    .sale-button-co {
+        font-size: 14px;
+        line-height: 129%;
+        width: 105px;
+        height: 34px;
+    }
+    .sale-button-ad {
+        font-size: 14px;
+        line-height: 129%;
+        width: 95px;
+        height: 34px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .container-sale-nov {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 65px;
+    }
+    .section-sale__wrap {
+        flex-direction: row;
+    }
+    .sale-content {
+        margin-bottom: 0;
+    }
+    .sale-price {
+        margin-bottom: 30px;
+    }
+    .section-sale {
+        padding: 50px 0;
+        width: 1280px;
+        margin-left: 0;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .container-sale-nov {
+        max-width: 1280px;
+    }
+    .container-sale {
+        margin-left: 0;
+    }
+    .sale-list-big {
+        width: 428px;
+        height: 558px;
+        padding: 80px 50px;
+    }
+    .sale-images-big {
+        width: 328px;
+        height: 398px;
+    }
+    .container-sale-ty {
+        border-radius: 50px;
+        width: 530px;
+        height: 558px;
+        margin-left: 40px;
+    }
+    .sale-logo-ty {
+        width: 389px;
+    }
+    .sale-text-fri {
+        width: 410px;
+        margin-bottom: 40px;
+    }
+}
