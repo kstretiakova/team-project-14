@@ -36,7 +36,6 @@
 .sale-list-big {
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
-    width: 335px;
     height: 385px;
     background: #F3F3F3;
     padding: 50px;
@@ -53,7 +52,6 @@
 }
 .container-sale-ty {
     border-radius: 30px;
-    width: 335px;
     background-color: #3350E9;
     margin-top: 20px;
 }
@@ -119,7 +117,6 @@
     margin-bottom: 28px;
 }
 .sale-gryp {
-    width: 279px;
     display: flex;
     flex-wrap: wrap;
     gap:8px;
